@@ -2,4 +2,10 @@
 
 详细介绍:
 
-https://mp.weixin.qq.com/s?__biz=MzUxNDk3MDAxMA==&mid=2247483869&idx=1&sn=2fdf8c0a57377dec444a605e2fb670be&chksm=f9bc9928cecb103e5005b7aacac4d103ed60b4a25b9fa856ec6e9fa560be85ce7be0402080f0&scene=126&sessionid=1586656764&key=346c979da5a4c9bec9c4a1c07c76cbe32462d3abf229833b89636eb2894cd087771699fa4b1dbfa883fc73abb401f7684b2c80c3e7a539859997bd44ccdf61d4d63fc73e2e38e6a5c202dfa4133608fb&ascene=1&uin=OTUzNzA5MDAx&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=ASrn%2FTWIUA5%2FUIETlcj9QLM%3D&pass_ticket=jAtb8ryxnghwYjauTHthndBTubEGq7Q%2FSqhmGgf5KlkRUP6MNJVDe8yIzuKLY3gr
+1. 不断爬取目标用户的微博，当有新的微博出现时触发2
+
+2. 得到该条微博的文字内容，并提取主题短语
+
+3. 调用预制好的数个模版，根据主题生成对应的百家号体评论
+
+4. 发送评论
